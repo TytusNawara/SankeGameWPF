@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeZadanieRekrutacyjne", "SnakeZadanieRekrutacyjne\SnakeZadanieRekrutacyjne.csproj", "{27922DCA-52C4-49AE-9801-67FA78029950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{AEDE22DC-E88E-42D2-B4E4-4F5F279677F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27922DCA-52C4-49AE-9801-67FA78029950} = {27922DCA-52C4-49AE-9801-67FA78029950}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27922DCA-52C4-49AE-9801-67FA78029950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27922DCA-52C4-49AE-9801-67FA78029950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27922DCA-52C4-49AE-9801-67FA78029950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27922DCA-52C4-49AE-9801-67FA78029950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEDE22DC-E88E-42D2-B4E4-4F5F279677F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEDE22DC-E88E-42D2-B4E4-4F5F279677F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEDE22DC-E88E-42D2-B4E4-4F5F279677F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEDE22DC-E88E-42D2-B4E4-4F5F279677F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491A01B6-72FB-4668-A0BE-163B3B42EF0A}
+	EndGlobalSection
+EndGlobal
